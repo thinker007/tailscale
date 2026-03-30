@@ -278,6 +278,8 @@ change in the future.
 			systrayCmd,
 			appcRoutesCmd,
 			waitCmd,
+			amneziaCmd,
+			awgCmd,
 		),
 		FlagSet: rootfs,
 		Exec: func(ctx context.Context, args []string) error {
